@@ -4,6 +4,23 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">              
   <title>Paquita Sabrafen</title>  
   <link rel="stylesheet" href="style.css" type="text/css">
+    
+    
+    <script type="text/javascript">
+      function toggleMe(a){
+        var e=document.getElementById(a);
+        if(!e)return true;
+        if(e.style.display=="none"){
+          e.style.display="block"
+        }
+        else{
+          e.style.display="none"
+        }
+        return true;
+     }
+    </script>
+    
+    
   </head>
   <body bgcolor="#ffffff" text="#000000">
     <h1 style="text-align: center;"><span class="textbg"><font size="+3">Paquita Sabrafen</font></span></h1>
@@ -117,6 +134,13 @@
               <br>      
               <br>      
             </font>
+            
+            <input type="button" onclick="return toggleMe('para2')" value="Toggle">
+              <br>
+            <div id="para2">
+              <p>Use HTML and ...</p>
+            </div>
+            
           </td>    
         </tr>      
       </tbody>
