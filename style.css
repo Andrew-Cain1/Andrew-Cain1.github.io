@@ -53,6 +53,10 @@
     border-radius: 10px;
   }
 
+  td.biog_content:hover {
+    background-color: #87BADD;
+  }
+
   p { background: rgb(211, 211, 211) none repeat scroll 0% 50%;
     -moz-background-clip: initial;
     -moz-background-origin: initial;
@@ -89,6 +93,13 @@
   img.hidden_text {
       display: block;
       width: 40%;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  img.banner_img {
+      display: block;
+      width: 85%;
       height: auto;
       margin: 0 auto;
   }
