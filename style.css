@@ -86,6 +86,8 @@
   tfoot {
       border: 0px solid red;
       background-color: #CAEBF2;
+      position: relative;
+      z-index: 5;
   }
 
   .intro {
