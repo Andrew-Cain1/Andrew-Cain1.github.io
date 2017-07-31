@@ -84,8 +84,8 @@
   }
 
   tfoot {
-      border: 5px solid red;
-      background-color: blue;
+      border: 0px solid red;
+      background-color: #CAEBF2;
   }
 
   .intro {
