@@ -83,17 +83,15 @@
     margin-bottom: 10px;
   }
 
-  tfoot {
+  /* tfoot {
       border: 0px solid red;
       background-color: #CAEBF2;
       position: relative;
       z-index: 5;
-  }
+  } */
 
   .intro {
     width: 80%;
-    display: inline-block;
-    position: relative;
   }
 
   td.biog_content{
